@@ -12,9 +12,6 @@
     <?php // tfuse_custom_title(); ?>
     <div <?php tfuse_class('middle'); ?>>
         <div class="row">
-<!--            <div class="col-xs-12 content-area col-sm-8" id="primary">
-                
-            </div> /#primary -->
 
             <?php if ($sidebar_position == 'left' || $sidebar_position == 'right') : ?>
                 <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 sidebar widget-area" id="secondary">
