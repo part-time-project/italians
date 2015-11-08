@@ -1,0 +1,76 @@
+*** Theme Config Changelog ***
+
+ 2015.08.17 - version 1.0.8
+ * minor changes for wp 4.3
+	theflavour-parent/theme_config/widgets/TFuse_Commented_Posts.php
+	theflavour-parent/theme_config/widgets/TFuse_Nav_Menu_Widget.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Archives.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Calendar.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Categories.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Contact.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Flickr.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Instagram.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Login.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Meta.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Newsletter.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Pages.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Popular_Post.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Recent_Comments.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Recent_Posts.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Search.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Tag_Cloud.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Text.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Twitter.php
+ * minor changes for logo on mobile
+	theflavour-parent/theme_config/theme_includes/THEME_SCRIPTS_STYLES.php
+
+ 2015.07.28 - version 1.0.7
+ * fixed reservation exclude dates
+	theflavour-parent/theme_config/extensions/reservationform/static/css/reservation_form.css
+	theflavour-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+ 
+ 2015.06.25 - version 1.0.6
+ * fixed instagram
+	theflavour-parent/theme_config/theme_includes/AJAX_CALLBACKS.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Instagram.php
+ * fixed wpml on blog page
+	theflavour-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ 
+ 2015.02.25 - version 1.0.5
+ * minor changes
+	theflavour-parent/theme_config/extensions/shortcodes/shortcodes/upcoming_events.php
+	theflavour-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+	theflavour-parent/theme_config/theme_includes/AJAX_CALLBACKS.php
+
+ 2014.10.15 - version 1.0.4
+ * minor changes for menu
+	theflavour-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ 
+ 2014.09.25 - version 1.0.3
+ * minor changes
+	theflavour-parent/theme_config/options/admin_options.php
+	theflavour-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+	theflavour-parent/theme_config/theme_includes/THEME_SCRIPTS_STYLES.php
+
+ 2014.09.15 - version 1.0.2
+ * minor changes for newsletter subscription
+	theflavour-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php
+	theflavour-parent/theme_config/extensions/slider/designs/fullbanner/options/fullbanner_options.php
+	theflavour-parent/theme_config/extensions/slider/designs/fullbanner/template.php
+	theflavour-parent/theme_config/widgets/TFuse_Widget_Newsletter.php
+ * minor changes for responsive menu
+	theflavour-parent/theme_config/config/theme_config.php
+	theflavour-parent/theme_config/extensions/shortcodes/shortcodes/section.php
+	theflavour-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+
+ 2014.07.28 - version 1.0.1
+ * fixed menu on mobile devices
+	theflavour-parent/theme_config/extensions/slider/designs/fullbanner/template.php
+ * minor changes
+	theflavour-parent/theme_config/common_includes/COMMON_FUNC.php
+	theflavour-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ 
+ 2014.07.09 - version 1.0
+ * First release!

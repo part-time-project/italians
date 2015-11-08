@@ -1,0 +1,246 @@
+/*    Calendar styles  */
+.ui-datepicker {
+    box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.506);
+    background: #FFFFFF;
+    border-bottom: 1px solid #BBBBBB;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    color: #333333;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding: 8px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    width: 224px;
+    border-radius: 0;
+}
+.ui-datepicker .ui-widget-header {
+    background: none;
+    border: none;
+}
+.ui-datepicker-calendar th,
+.ui-datepicker-calendar td {
+    width: 14.2857142%;
+    background: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    color: #666666;
+    font-size: 12px;
+    text-align: right;
+    padding: 0px;
+    border-collapse: collapse;
+    cursor: pointer;
+    height: 25px;
+}
+.ui-datepicker-calendar td {
+    padding: 0;
+}
+.ui-datepicker-calendar th {
+    font-weight: 700;
+    text-align: center;
+    color: #999;
+    cursor: default;
+    padding-top: 5px;
+    background: #F1F1F1;
+    border: 1px solid #DDDDDD;
+}
+.ui-datepicker-calendar td span,
+.ui-datepicker-calendar td a {
+    padding: 0;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.ui-datepicker-calendar .ui-datepicker-today {
+    background: #33AAFF;
+    box-shadow: #178FE5 0px 1px 3px 0px inset;
+    color: #fff;
+    font-weight: 700;
+}
+.ui-datepicker-calendar .ui-datepicker-today > a,
+.ui-datepicker-calendar .ui-datepicker-today > span {
+    color: #fff;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: none;
+    background: transparent;
+}
+.ui-datepicker-calendar .ui-datepicker-other-month {
+    height: 21px;
+}
+.ui-datepicker .ui-datepicker-title {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 14px;
+}
+.ui-datepicker .ui-datepicker-title .ui-datepicker-month{
+    padding-right: 3px;
+}
+.ui-datepicker .ui-widget-header .ui-icon {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAAeCAYAAACsYQl4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozQjRCQjRGREU4MkNFMzExQjRDQkIyRDJDOTdBRUI1MCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCQjg0OUYyNTZDODAxMUUzQjMwM0IwMERBNUU0ODQ5NSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCQjg0OUYyNDZDODAxMUUzQjMwM0IwMERBNUU0ODQ5NSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkI5NzE3MjFBN0E2Q0UzMTFBQjJEQjgzMDk5RTNBNTdBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCNEJCNEZERTgyQ0UzMTFCNENCQjJEMkM5N0FFQjUwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+aQvATgAAAfVJREFUeNrsmr1OwzAQxzGtkPjYEAuvVGAvfQIGRKADE49gdLwDDwBiZ2RhQUKwICQkWLsgFiRQuIBTucFJ/XFp4+hO+quqnZ4uvzj2nV2RpukCW/22yAgYNINmc7du7DcghCjrkqgOKjF1znpt6rZ0AGWQj7TvCU8d9UM+QAGDrhdyc2Bnc1WVVPBev9V8lBnY+rDwncWZThG4xk4lmxtJy2AHgoY/FySgbSBPwPZ8mEXbQx3aDERb0EbYAYFC7pcAtAvkMWwC0D3NX58S9D/YnoGC7nPWr3Dg9JTbtuHhDShBT8D2CBSK/iIEvVXxpuxSgh7DdgwUTL4iA92zmJb6lKB/YTsECmV+IgK947AGDIqgQ/LojsO135Hn51l2cWlov0JdGNrPUceueXRwilSVgkUyom9Rd6gbLfYTDeO+1v6orn0InTogYDGUkYLO3/wc9BdqqTCKP1Tfi+oTIaCBIL2TES+GTyruT9S61p6BHam+99DFEAgLFklYsIBHwSI9QY80H5ta+1rB/6ovaKihBJeEJbgLbBlQgl+j3lDPqA2tfQV1j3pVn8s+oKHGTSVJ+FqDLeR5bCqJ2E/BCycsoLZETXaKGs7rhKVt+9HZScrZNMi88V8P7LlDbvOZYaJVpMMmBCT4n0o8dTBoNgbdWPsRYACs3r7XyNfbnAAAAABJRU5ErkJggg==');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0px none currentColor;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    margin-top: -17px;
+    opacity: 0.5;
+    outline: medium none currentColor;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 20px;
+}
+.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-prev{
+    height: 30px;
+    width: 20px;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+    margin: 0;
+    left: 0;
+}
+.ui-datepicker .ui-datepicker-prev:hover {
+    left: 2px;
+}
+.ui-datepicker .ui-datepicker-next:hover {
+    right: 2px;
+}
+.ui-datepicker .ui-datepicker-prev:hover,
+.ui-datepicker .ui-datepicker-next:hover {
+    background: none;
+    opacity: 1;
+    border: none;
+    top: 2px;
+}
+.ui-datepicker .ui-datepicker-prev:hover .ui-icon,
+.ui-datepicker .ui-datepicker-next:hover .ui-icon {
+    opacity: 1;
+}
+.ui-icon-circle-triangle-w {
+    background-position: -20px 0;
+}
+.ui-icon-circle-triangle-e {
+    background-position: 0;
+}
+/* END Calendar styles */
+.reservationForm .tfuse_captcha_reload{
+    background-image:url(../images/reload.png) !important;
+    background-repeat: no-repeat !important;
+    height: 18px !important;
+    margin-top: 15px !important;
+    max-width: 16px !important;
+    vertical-align: top;
+    background-color: transparent !important;
+    border:none !important;
+    width: 20px;
+}
+#header_message,#form_messages{
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+}
+.reservationForm .right-colum .row.omega{
+    margin-right: 0;
+}
+.reservationForm .link-reset{
+    float: right;
+    margin-top: 75px;
+    margin-right: 20px;
+}
+.reservationForm .link-reset:hover{
+    color: #FFA42E;
+}
+.reservationForm input[type="radio"]{
+    margin-right: 10px;
+}
+.reservationForm input[type="checkbox"]{
+    margin-right: 10px;
+    margin-top: 0;
+}
+.reservationForm .select_row_up{
+    left: 92%;
+    top:20%;
+}
+.reservationForm .select_row_down{
+    left: 92%;
+    bottom: -14%;
+}
+.reservationForm .left-colum .select_row_up, .reservationForm .left-colum .select_row_down{
+    left: 50%;
+}
+.sidebar-right .reservation-container.container, .sidebar-left .reservation-container.container{
+    width: 780px;
+}
+.reservation-container{
+    text-align: left;
+}
+/* preview */
+#TB_ajaxContent #header_message, #TB_ajaxContent .reservationForm label{
+    color: #000;
+}
+#TB_ajaxContent .reservationForm .pull-left{
+    float: left;
+}
+#TB_ajaxContent .reservationForm .omega{
+    margin-right: 0;
+}
+#TB_ajaxContent .reservationForm .row {
+    margin-left: 0;
+    margin-right: 25px;
+    margin-top: 25px;
+    position: relative;
+}
+#TB_ajaxContent .reservationForm #submit {
+    margin: 64px auto 0 8px;
+    padding: 17px 73px;
+    color: #1C150B;
+    font-size: 15px;
+    font-weight: 800;
+    background: #FFA42E;
+    border: 2px solid #FFA42E;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+#TB_ajaxContent .reservationForm #submit:hover {
+    background: none;
+    color: #FFA42E;
+}
+#TB_ajaxContent .reservationForm .link-reset{
+    float: right;
+    margin-top: 75px;
+    margin-right: 20px;
+    color: #FFA42E;
+    text-decoration: none;
+}
+#TB_ajaxContent .reservationForm .link-reset:hover{
+    color: #FFA42E;
+}
+#TB_ajaxContent .reservation_submit{
+    margin-bottom: 30px;
+}
+#TB_ajaxContent .reservationForm .inputtext,
+#TB_ajaxContent .reservationForm select,
+#TB_ajaxContent .reservationForm textarea{
+    border: 3px solid #000;
+    background: #fff !important;
+    color: #FFA42E;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 14px;
+    text-align: left;
+    z-index: 100;
+    border-radius: 0;
+}
+#TB_ajaxContent .reservationForm select{
+    height: 54px;
+}
+#TB_ajaxContent .reservationForm > .row{
+    margin-top: 0;
+}
+.ui-widget-content {
+    color: #000 !important;
+}

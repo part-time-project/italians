@@ -1,0 +1,60 @@
+*** The Flavour Changelog ***
+
+ 2015.08.17 - version 1.0.7
+ * minor changes for menu page svg badge
+	theflavour-parent/style.css
+	theflavour-parent/style.less
+	theflavour-parent/taxonomy-list-menus.php
+ * minor changes for logo on mobile
+	theflavour-parent/js/general.js
+	theflavour-parent/style.css
+	theflavour-parent/style.less
+ 
+ 2015.07.28 - version 1.0.6
+ * minor changes for logo responsive
+	theflavour-parent/js/general.js
+	theflavour-parent/style.css
+	theflavour-parent/style.less
+ * fixed reservation exclude dates
+	theflavour-parent/js/jquery.datetimepicker.js
+	theflavour-parent/js/reservation_frontend.js
+ 
+ 2015.02.25 - version 1.0.5
+ * minor changes
+	theflavour-parent/style.css
+	theflavour-parent/style.less
+ * custom page title
+	theflavour-parent/page.php
+ 
+ 2014.10.15 - version 1.0.4
+ * minor changes for menu
+	theflavour-parent/header.php
+	theflavour-parent/js/general.js
+	theflavour-parent/style.css
+	theflavour-parent/style.less
+ 
+ 2014.09.25 - version 1.0.3
+ * minor changes
+	theflavour-parent/README.txt
+	theflavour-parent/js/preloadCssImages.js
+
+ 2014.09.15 - version 1.0.2
+ * minor changes for responsive menu
+	theflavour-parent/js/general.js
+	theflavour-parent/style.css
+	theflavour-parent/style.less
+
+ 2014.07.28 - version 1.0.1
+ * fixed menu on mobile devices
+	theflavour-parent/js/general.js
+	theflavour-parent/style.css
+	theflavour-parent/style.less
+ * minor changes
+	theflavour-parent/colors.less
+	theflavour-parent/header.php
+	theflavour-parent/listing-blog.php
+	theflavour-parent/style.css
+	theflavour-parent/style.less
+
+ 2014.07.09 - version 1.0
+ * First release!

@@ -1,0 +1,71 @@
+.folded #adminmenu a.menu-top {
+    height: 0px;
+}
+.folded #adminmenu a.menu-top {
+    padding: 0px !important;
+}
+select.select_hour{
+    width:89px !important;
+}
+select.select_minute{
+    width:89px !important;
+}
+select.select_time{
+    width:88px !important;
+}
+/* for addable option in post */
+.tf-post-table .div-table-td.div-table-delete-checkbox-row {
+    margin-right: -4px;
+    margin-top: 6px;
+    float: left;
+}
+.tf-post-table .div-table-td {
+    float: left;
+    padding-top: 0;
+}
+.tf-post-table .div-table-delete-checkbox-row{
+    padding-top: 10px;
+}
+#post-body .tf-post-table .div-table-td .option-inner{
+    padding: 10px;
+}
+#post-body .formcontainer .tf-post-table input[type="checkbox"]{
+    width: 15px;
+}
+#post-body .formcontainer .tf-post-table #tab_title{
+    width: 250px;
+}
+.tf_megamenu_optcontainer .tf_megamenu_template_options textarea{
+    width: 390px;
+}
+/* for dashboard icons */
+#menu-posts-portfolio div.wp-menu-image:before,
+#menu-posts-event div.wp-menu-image:before,
+#menu-posts-testimonials div.wp-menu-image:before,
+#toplevel_page_tf_contact_forms_list div.wp-menu-image:before,
+#toplevel_page_tf_reservations_list div.wp-menu-image:before,
+#toplevel_page_tf_slider_list div.wp-menu-image:before
+{
+    display: block !important;
+}
+#adminmenu #menu-posts-portfolio div.wp-menu-image:before,
+#adminmenu .menu-icon-generic.toplevel_page_tf_reservations_list div.wp-menu-image:before,
+#adminmenu .menu-icon-generic.toplevel_page_tf_contact_forms_list div.wp-menu-image:before,
+#adminmenu .menu-icon-generic.toplevel_page_tf_slider_list div.wp-menu-image:before
+{
+    content: '\f109';
+}
+#adminmenu #menu-posts-portfolio div.wp-menu-image,
+#adminmenu #menu-posts-event div.wp-menu-image,
+#adminmenu #menu-posts-testimonials div.wp-menu-image,
+#adminmenu #toplevel_page_tf_reservations_list div.wp-menu-image,
+#adminmenu #toplevel_page_tf_contact_forms_list div.wp-menu-image,
+#adminmenu #toplevel_page_tf_slider_list div.wp-menu-image
+{
+    float: left;
+    width: 27px;
+    height: 30px !important;
+    margin: 0 !important;
+    text-align: center;
+    margin-left: 9px !important;
+}
