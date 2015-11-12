@@ -10,10 +10,148 @@ Template: theflavour-parent
 
 @import url("../theflavour-parent/style.css");
 
+h2 {
+    color: #153758 !important;
+    font-weight: 800 !important;
+}
+
+h2 span {
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-color: #616161;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #233444 !important;
+}
+
 .nav-main .site-logo i span{
   color:#dbdcdb;
 }
 
 .footer {
     background-color: #163957;
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 146px;
+  margin-right: 5px;
+  margin-bottom: 16px;
+  position: relative;
+  width: 150px;
+}
+
+span.text-content {
+  background: #2e6078;
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 146px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+span.text-content {
+  background: #2e6078;
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 146px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 0.5;
+}
+
+span.text-content {
+  background: #2e6078;
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 146px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content p {
+  text-align: center;
+  vertical-align: middle;
+}
+
+span p.image-list-title {
+    font-size: 13px !important;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-bottom: 0px !important;
+}
+
+span p.image-list-sub-title {
+    color: #b9e4fd;
+    font-size: 12px !important;
+}
+
+#menu-primary li {
+    padding-top: 20px !important;
+    padding-bottom: 15px !important;
+}
+
+.hover-menu {
+    border-color: transparent !important;
+}
+
+.current-menu-item {
+    border-color: transparent !important;
+}
+
+#nav-main {
+    border-bottom: 4px solid #1b354c !important;
+}
+
+#menu-primary a {
+    color: #1b384f !important;
+}
+
+#menu-footer a:hover {
+    color: white !important;
+}
+
+#menu-footer a {
+    color: white !important;
+}
+
+#menu-footer li {
+    border-right: 2px solid white;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+#menu-footer li:last-child {
+    border-right: none;
+}
+
+#menu-footer li:first-child {
+    margin-left: 70px;
 }

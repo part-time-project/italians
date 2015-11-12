@@ -5,9 +5,10 @@
         <group>
             <file>file:/var/www/wordpress/wp-content/themes/theflavour-parent/page.php</file>
             <file>file:/var/www/wordpress/wp-content/themes/theflavour-parent/single-menu.php</file>
+            <file>file:/var/www/wordpress/wp-content/themes/theflavour-child/profesionisti.php</file>
             <file>file:/var/www/wordpress/wp-content/themes/theflavour-parent/listing-blog.php</file>
             <file>file:/var/www/wordpress/wp-content/themes/theflavour-child/style.css</file>
-            <file>file:/var/www/wordpress/wp-content/themes/theflavour-child/home.php</file>
+            <file>file:/var/www/wordpress/wp-content/themes/theflavour-child/home-page.php</file>
         </group>
     </open-files>
 </project-private>

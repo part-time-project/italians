@@ -16,7 +16,7 @@
                     endwhile; // end of the loop. ?>
                 </div><!-- /.inner -->
             </div><!-- /#primary -->
-
+            
             <?php if ($sidebar_position == 'left' || $sidebar_position == 'right') : ?>
                 <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 sidebar widget-area" id="secondary">
                     <div class="inner">
