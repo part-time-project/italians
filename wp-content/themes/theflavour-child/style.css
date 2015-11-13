@@ -10,9 +10,10 @@ Template: theflavour-parent
 
 @import url("../theflavour-parent/style.css");
 
-h2 {
+h2, h1, span.h1 {
     color: #153758 !important;
     font-weight: 800 !important;
+    font-size: 25px !important;
 }
 
 h2 span {
@@ -24,6 +25,19 @@ h2 span {
 
 h3 {
     color: #233444 !important;
+}
+
+div, span, label {
+    color: #2e6078 !important;
+    font-weight: 600 !important;
+}
+
+input, .textarea {
+    border: 2px solid #2e6078 !important;
+}
+
+.footer-nav .site-navigation a {
+    font-weight: 700 !important;
 }
 
 .nav-main .site-logo i span{
@@ -154,4 +168,67 @@ span p.image-list-sub-title {
 
 #menu-footer li:first-child {
     margin-left: 70px;
+}
+
+.contact-info {
+    margin-bottom: 12px;
+}
+
+.form-field_text, .form-field_textarea {
+    margin-bottom: 25px !important;
+}
+
+.contact-form .submit-form {
+    margin-top: 10px !important;
+    text-align: right;
+}
+
+.contact-form {
+    margin-bottom: 110px !important;
+}
+
+.contact-form #submit:hover, .contact-form #submit {
+    background: #153758 !important;
+    border: none;
+    color: white;
+}
+
+.container.contact {
+    padding-top: 0 !important;
+}
+
+.see-location.contact-page {
+    margin-bottom: 0 !important;
+}
+
+#contactForm {
+    margin-top: 20px !important;
+}
+
+@media (max-width: 1199px) {
+    .contact-form .inputtext, .contact-form .textarea {
+        font-size: 13px;
+        max-width: 234px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-form .inputtext, .contact-form .textarea {
+        max-width: 212px !important;
+    }
+    .contact-form #submit {
+        float: left !important;
+    }
+}
+/*Screen only 800px*/
+@media screen and (width: 800px) {
+    .contact-form .inputtext, .contact-form .textarea {
+        max-width: 212px !important;
+    }
+}
+/*Screen only 480px*/
+@media screen and (width: 480px) {
+    .contact-form .inputtext, .contact-form .textarea {
+        max-width: 196px !important;
+    }
 }
