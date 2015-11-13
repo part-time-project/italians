@@ -9,6 +9,7 @@ if (!function_exists('tfuse_get_menu')) :
                 <div class="site-logo" id="site-logo">
                     <a href="<?php echo home_url(); ?>">
                         <?php if(tfuse_options('logo_type','text')=='text'){
+                            echo '<i><span>'.tfuse_options('logo_text','').'</span></i>';
                             echo '<span>'.tfuse_options('logo_text_bottom','').'</span>';
                         } else{ ?>
                             <img src="<?php echo tfuse_logo(); ?>" alt="<?php bloginfo('name'); ?>">
@@ -24,6 +25,7 @@ if (!function_exists('tfuse_get_menu')) :
                 <div class="site-logo" id="site-logo">
                     <a href="<?php echo home_url(); ?>">
                         <?php if(tfuse_options('logo_type','text')=='text'){
+                            echo '<i><span>'.tfuse_options('logo_text','').'</span></i>';
                             echo '<span>'.tfuse_options('logo_text_bottom','').'</span>';
                         } else{ ?>
                             <img src="<?php echo tfuse_logo(); ?>" alt="<?php bloginfo('name'); ?>">

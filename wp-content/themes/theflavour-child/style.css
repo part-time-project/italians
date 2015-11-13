@@ -17,6 +17,8 @@ h2, h1, span.h1 {
 }
 
 h2 span {
+    color: #153758 !important;
+    font-weight: 800 !important;
     border-style: solid;
     border-bottom-width: 3px;
     border-color: #616161;
@@ -231,4 +233,13 @@ span p.image-list-sub-title {
     .contact-form .inputtext, .contact-form .textarea {
         max-width: 196px !important;
     }
+}
+
+.no-top-margin {
+    margin-top: 0px !important;
+}
+
+.nav-main .site-logo a {
+    border: none !important;
+    padding: 0 0 0;
 }
