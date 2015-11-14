@@ -24,7 +24,7 @@
 </head>
 <body <?php body_class(); ?> >
 <div id="page" class="hfeed site">
-    <header>
+    <header class="bottom-line">
         <div class="nav-main <?php tfuse_menu_class(); ?>" id="nav-main" >
             <div class="container">
                 <div class="row">

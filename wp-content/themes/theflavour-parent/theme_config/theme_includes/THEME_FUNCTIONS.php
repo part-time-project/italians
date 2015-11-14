@@ -527,7 +527,7 @@ if (!function_exists('tfuse_pagination')) :
                     <?php $prev_posts = get_previous_posts_link('<i class="tficon-shevron-left"></i>'); ?>
                     <?php if ($prev_posts != '') { echo $prev_posts;} else { echo '<a class="page_prev" href="javascript:void(0);"><i class="tficon-shevron-left"></i></a>'; }?>
                     <div class="page-number">
-                        <span><?php echo $current; ?></span> <?php _e('of','tfuse'); ?> <span><?php echo $max_num_pages; ?></span>
+                        <span><?php echo $current; ?></span><i> <?php _e('of','tfuse'); ?> </i><span><?php echo $max_num_pages; ?></span>
                     </div>
                     <?php $next_posts = get_next_posts_link('<i class="tficon-shevron-right"></i>'); ?>
                     <?php if ($next_posts != '') { echo $next_posts;} else { echo '<a class="page_next" href="javascript:void(0);"><i class="tficon-shevron-right"></i></a>'; } ?>

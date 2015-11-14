@@ -142,8 +142,8 @@ span p.image-list-sub-title {
     border-color: transparent !important;
 }
 
-.main-top {
-    border-top: 4px solid #1b354c !important;
+.bottom-line {
+    border-bottom: 3px solid #1b354c !important;
 }
 
 #menu-primary a {
@@ -413,26 +413,23 @@ span p.image-list-sub-title {
 
 .page_prev {
     background: #153758 !important;
+    padding: 16px 32px !important;
 }
 
 .page_next {
     background: #153758 !important;
+    padding: 16px 32px !important;
 }
 
 .page-number {
     background: #153758 !important;
-}
-
-.page-number {
+    padding-bottom: 25px !important;
+    padding-top: 25px !important;
     color: white !important;
 }
 
 .page-number span {
     color: white !important;
-}
-
-.main-top {
-    border-top: 4px solid #1b354c !important;
 }
 
 .sedi-section {
@@ -464,4 +461,12 @@ span p.image-list-sub-title {
 
 strong {
     font-weight: 800;
+}
+
+.wrapp-categories {
+    margin-bottom: 80px;
+}
+
+.post.post-details .entry-title {
+  color: #153758 !important;
 }

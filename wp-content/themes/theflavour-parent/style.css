@@ -4582,7 +4582,7 @@ div.dark_square .pp_previous:hover {
   line-height: 20px;
 }
 .post .entry-title a {
-  color: #1d1d1d !important;
+  color: #1d1d1d;
   font-size: 34px;
   font-weight: 800;
   display: block;
@@ -5424,7 +5424,7 @@ div.dark_square .pp_previous:hover {
 }
 .post.post-details .entry-title {
   font-size: 39px;
-  color: #1d1d1d !important;
+  color: #1d1d1d;
   font-weight: 800;
   text-transform: capitalize;
   margin: 11px auto 43px;
@@ -7428,7 +7428,7 @@ img.alignright {
 }
 /*WP Post Formats*/
 .entry-title {
-  color: #1d1d1d !important;
+  color: #1d1d1d;
   font-size: 34px;
   font-weight: 800;
   display: block;
