@@ -142,8 +142,8 @@ span p.image-list-sub-title {
     border-color: transparent !important;
 }
 
-#nav-main {
-    border-bottom: 4px solid #1b354c !important;
+.main-top {
+    border-top: 4px solid #1b354c !important;
 }
 
 #menu-primary a {
@@ -222,6 +222,24 @@ span p.image-list-sub-title {
         float: left !important;
     }
 }
+
+@media (min-width: 800px) {
+    .wrapp-categories {
+        padding-left: 2%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .wrapp-categories {
+        padding-left: 11%;
+    }
+}
+
+/*@media (min-width: 1100px) {
+    .wrapp-categories {
+        padding-left: 11%;
+    }
+}*/
 /*Screen only 800px*/
 @media screen and (width: 800px) {
     .contact-form .inputtext, .contact-form .textarea {
@@ -371,4 +389,79 @@ span p.image-list-sub-title {
     font-size: 21px !important;
     padding: 0 15px 0 17px;
     font-weight: bold;
+}
+
+.blog-categories .check-category {
+    border: 2px solid #153758 !important;
+}
+
+.blog-categories .check-category span {
+    background: #153758 !important;
+}
+
+.categories-item a {
+    color: #153758 !important;
+}
+
+.navigation.paging-navigation {
+    margin-bottom: 20px;
+}
+
+.post {
+    margin: 80px auto;
+}
+
+.page_prev {
+    background: #153758 !important;
+}
+
+.page_next {
+    background: #153758 !important;
+}
+
+.page-number {
+    background: #153758 !important;
+}
+
+.page-number {
+    color: white !important;
+}
+
+.page-number span {
+    color: white !important;
+}
+
+.main-top {
+    border-top: 4px solid #1b354c !important;
+}
+
+.sedi-section {
+    color: #153758 !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    margin: 5px 0 !important;
+}
+
+.sedi-section-head {
+    color: #153758 !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    margin: 5px 0 !important;
+}
+
+.sedi-section span {
+    color: #153758 !important;
+    font-weight: 700 !important;
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-color: #616161;
+    padding-bottom: 5px;
+}
+
+.invisible-slider-btn {
+    visibility: hidden;
+}
+
+strong {
+    font-weight: 800;
 }

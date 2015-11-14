@@ -19,7 +19,6 @@ if(!empty($categories_ids)){
     }
 }
 ?>
-<div class="col-md-offset-3">
     <article class="post <?php echo $post_type; ?>" <?php post_class(); ?>>
         <div class="inner">
             <?php if ( has_post_thumbnail() && $post_type != 'post-style-7') { ?>
@@ -34,8 +33,6 @@ if(!empty($categories_ids)){
                 <header class="entry-header">
                     <div class="entry-meta">
                         <time class="entry-date"><?php echo get_the_date('y M'); ?></time>
-<!--                        <span class="author"> <?php // _e('by','tfuse'); ?> <?php // the_author_posts_link(); ?></span>
-                        <span class="cat-links"> <?php // _e('in','tfuse'); ?> <?php // echo $categories; ?></span>-->
                         <p style="margin-bottom: 30px; margin-top: 30px;"><strong><a style="color: #153758 !important; font-size: 18px;" href="<?php echo $permalink; ?>"><?php the_title(); ?></a></strong></p>
                     </div>
                     <?php
@@ -58,4 +55,3 @@ if(!empty($categories_ids)){
             </div>
         </div>
     </article>
-</div>
