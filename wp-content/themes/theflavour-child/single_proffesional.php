@@ -11,7 +11,7 @@
     <?php tfuse_custom_title(); ?>
     <div <?php tfuse_class('middle'); ?>>
         <div class="row">
-            <div class="col-xs-12 text-center content-area" id="primary">
+            <div class="col-xs-12 col-md-offset-3 col-md-8 text-center content-area" id="primary">
                 <div class="post-descr entry">
                     <?php while( have_posts() ) {
                         the_post();

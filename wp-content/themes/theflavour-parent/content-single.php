@@ -65,27 +65,27 @@ get_template_part('content', 'author');
 ?>
 
 <!--Share Links-->
-<section class="social-share-blog">
+<!--<section class="social-share-blog">
     <div class="twitter">
-        <a href="https://twitter.com/share?url=<?php echo $permalink; ?>" target="_blank">
-            <i class="tficon-twitter-postshare"></i><?php _e('Tweet','tfuse'); ?>
+        <a href="https://twitter.com/share?url=<?php // echo $permalink; ?>" target="_blank">
+            <i class="tficon-twitter-postshare"></i><?php // _e('Tweet','tfuse'); ?>
         </a>
     </div>
     <div class="facebook-share">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $permalink; ?>" target="_blank">
-            <i class="tficon-facebook-postshare"></i><?php _e('Share','tfuse'); ?>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php // echo $permalink; ?>" target="_blank">
+            <i class="tficon-facebook-postshare"></i><?php // _e('Share','tfuse'); ?>
         </a>
     </div>
     <div class="pinterest">
-        <a href="http://www.pinterest.com/pin/create/button/?url=<?php echo $permalink; ?>" target="_blank">
-            <i class="tficon-pinterest-postshare"></i><?php _e('Pin it','tfuse'); ?>
+        <a href="http://www.pinterest.com/pin/create/button/?url=<?php // echo $permalink; ?>" target="_blank">
+            <i class="tficon-pinterest-postshare"></i><?php // _e('Pin it','tfuse'); ?>
         </a>
     </div>
-</section>
+</section>-->
 
-<section class="blog-post-navigation">
-    <?php previous_post_link( '%link','<i class="tficon-shevron-left"></i><span>'.__('Previous Story','tfuse').'</span>%title' ); ?>
-    <?php next_post_link( '%link', '<i class="tficon-shevron-right"></i><span>'.__('NEXT Story','tfuse').'</span>%title' ); ?>
-</section>
+<!--<section class="blog-post-navigation">
+    <?php // previous_post_link( '%link','<i class="tficon-shevron-left"></i><span>'.__('Previous Story','tfuse').'</span>%title' ); ?>
+    <?php // next_post_link( '%link', '<i class="tficon-shevron-right"></i><span>'.__('NEXT Story','tfuse').'</span>%title' ); ?>
+</section>-->
 
 <?php tfuse_show_similar_posts($tags, $post->ID); ?>
