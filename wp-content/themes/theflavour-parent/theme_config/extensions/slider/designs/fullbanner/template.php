@@ -63,8 +63,11 @@
                                 <h1 class="slider-title"><?php echo $title; ?></h1>
                                 <h5 class="slider-subtitle"><?php echo $slide['slide_subtitle']; ?></h5>
                             </div>
-                            <div data-animate-in="fadeInUp" data-animate-out="fadeOutDown" class="invisible"><a href="<?php echo $slide['slide_url']; ?>" class="btn slider-btn anchor-scroll"><span><?php echo $slide['slide_btn_text']; ?></span></a>
-                            </div>
+
+                                <div data-animate-in="fadeInUp" data-animate-out="fadeOutDown" class="invisible">
+                                    <a href="<?php echo $slide['slide_url']; ?>" class="btn slider-btn anchor-scroll <?php echo (empty($slide['slide_btn_text'])) ? 'invisible-slider-btn' : ''; ?>"><span><?php echo $slide['slide_btn_text']; ?></span></a>
+                                </div>
+
                         </div>
                     </div>
                     <?php
