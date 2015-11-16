@@ -32,10 +32,12 @@ if(!empty($categories_ids)){
             <a href="#comments" class="link-comment">
                 <span><?php comments_number('0','1','%'); ?></span>
             </a>
-            <?php if( ($mini_description = tfuse_page_options('mini_description','') ) != '' ){ ?>
-                <h4 class="min-descriptions"><?php echo $mini_description; ?></h4>
-            <?php } ?>
             </div>
+            <?php if( ($mini_description = tfuse_page_options('mini_description','') ) != '' ){ ?>
+            <div class="col-xs-10 text-left">
+                <h5 style="margin-top: -6px; color: #153758 !important;"><strong><?php echo $mini_description; ?></strong></h5>
+            </div>
+            <?php } ?>
         </div>
     </header>
 
