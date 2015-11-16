@@ -10,10 +10,31 @@ Template: theflavour-parent
 
 @import url("../theflavour-parent/style.css");
 
+@font-face {
+    font-family: "RobotoSlabBold";
+    src: url('fonts/RobotoSlab-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoSlabLight';
+    src: url('fonts/RobotoSlab-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoSlabRegular';
+    src: url('fonts/RobotoSlab-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoSlabThin';
+    src: url('fonts/RobotoSlab-Thin.ttf')  format('truetype');
+}
+
 h2, h1, span.h1 {
     color: #153758 !important;
     font-weight: 800 !important;
     font-size: 25px !important;
+    font-family: RobotoSlabBold, sans-serif !important;
 }
 
 h2 span {
@@ -23,10 +44,20 @@ h2 span {
     border-bottom-width: 3px;
     border-color: #616161;
     padding-bottom: 5px;
+    font-family: RobotoSlabBold, sans-serif !important;
 }
 
 h3 {
     color: #233444 !important;
+    font-family: RobotoSlabRegular, sans-serif !important;
+}
+
+h5 {
+    font-family: RobotoSlabRegular, sans-serif !important;
+}
+
+p, a, time, div, label {
+    font-family: RobotoSlabRegular, sans-serif !important;
 }
 
 div, span, label {
@@ -92,7 +123,7 @@ span.text-content {
 }
 
 ul.img-list li:hover span.text-content {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 span.text-content {
@@ -156,6 +187,7 @@ span p.image-list-sub-title {
 
 #menu-footer a {
     color: white !important;
+    font-family: RobotoSlabRegular, sans-serif !important;
 }
 
 #menu-footer li {
@@ -282,6 +314,7 @@ span p.image-list-sub-title {
 }
 
 .home-section {
+    font-family: RobotoSlabBold, sans-serif !important;
     color: #153758 !important;
     font-weight: 700 !important;
     font-size: 35px !important;
@@ -289,6 +322,7 @@ span p.image-list-sub-title {
 }
 
 .home-section span {
+    font-family: RobotoSlabBold, sans-serif !important;
     color: #153758 !important;
     font-weight: 700 !important;
     border-style: solid;
@@ -298,6 +332,7 @@ span p.image-list-sub-title {
 }
 
 .home-section-text {
+    font-family: RobotoSlabRegular, sans-serif !important;
     color: black;
     padding-bottom: 10px;
 }
@@ -313,9 +348,9 @@ span p.image-list-sub-title {
 .main-carousel .slider-subtitle {
     color: white !important;
 }
+
 .main-carousel .slider-title {
     letter-spacing: normal !important;
-    font-family: Raleway, sans-serif !important;
     color: white !important;
     padding-bottom: 20px !important;
 }
@@ -355,17 +390,21 @@ span p.image-list-sub-title {
 
 .testimonials .testimonials-title-before {
     color: #153758 !important;
-    font-weight: 800 !important;
     font-size: 35px !important;
+    font-family: RobotoSlabBold, sans-serif !important;
 }
 
 .testimonials .testimonials-title-before span {
     color: #153758 !important;
-    font-weight: 800 !important;
+    font-family: RobotoSlabBold, sans-serif !important;
     border-style: solid;
     border-bottom-width: 4px;
     border-color: #616161;
     padding-bottom: 5px;
+}
+
+.testimonials-text {
+    font-family: RobotoSlabRegular, sans-serif !important;
 }
 
 .testimonials .tficon-apostroufe {
@@ -440,6 +479,7 @@ span p.image-list-sub-title {
 }
 
 .sedi-section-head {
+    font-family: RobotoSlabRegular, sans-serif !important;
     color: #153758 !important;
     font-weight: 500 !important;
     font-size: 20px !important;
